@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+header {
+    background-image: url(../images/banner/banner1.png);
+    width: 1600px;
+    height: 808px;
+}
+
+.banner-title {
+
+    font-weight: 700;
+    font-size: 65px;
+
+    /* padding: 216px 230px 364px 845px; */
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-left: 845px;
+    text-align: right;
+}
+
+.banner-description {
+
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+    /* padding: 668px 230px 262px 876px; */
+
+    padding-right: 230px;
+    padding-left: 845px;
+}
+
+.banner-button {
+    border-radius: 5px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    background-color: chocolate;
+    margin-left: 1210px;
+    margin-top: 32px;
+}
+
+/* section style */
+.about-me {
+    display: flex;
+    gap: 87px;
+    /* justify-items: auto; */
+
+
+
+}
+
+.about-title {
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+    margin-top: 450px;
+    margin-bottom: 30px;
+
+}
+
+.about-description {
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.about-sort {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 10px;
+
+
+}
+
+.about-image {
+    width: 569px;
+    height: 723.3px;
+    margin-top: 231px;
+    margin-left: 206px;
+}
+
+/* my plan style */
+.plan-container {
+    display: flex;
+    gap: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+.section-title {
+    margin-top:130px;
+    margin-bottom:55px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 179px;
+    height: 47px;
+    color: #151414;
+    text-align: center;
+    margin-left:711px;
+    margin-right: 710px;
+
+}
+.plan-topic{
+    color: #151414;
+    font-weight: 700;
+font-size: 30px;
+width: 270px;
+height: 35px;
+margin-top: 16px;
+margin-bottom: 16px;
+
+}
+.plan-how{
+    font-weight: 400px;
+font-size: 25px;
+color: #737272;
+width: 300px;
+height: 29px;
+}
