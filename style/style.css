@@ -42,6 +42,11 @@ header {
     background-color: chocolate;
     margin-left: 1210px;
     margin-top: 32px;
+    font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+text-align: center;
+
 }
 
 /* section style */
@@ -100,32 +105,83 @@ header {
 }
 
 .section-title {
-    margin-top:130px;
-    margin-bottom:55px;
+    margin-top: 130px;
+    margin-bottom: 55px;
     font-weight: 700;
     font-size: 40px;
     width: 179px;
     height: 47px;
     color: #151414;
     text-align: center;
-    margin-left:711px;
+    margin-left: 711px;
     margin-right: 710px;
 
 }
-.plan-topic{
+
+.plan-topic {
     color: #151414;
     font-weight: 700;
-font-size: 30px;
-width: 270px;
-height: 35px;
-margin-top: 16px;
-margin-bottom: 16px;
+    font-size: 30px;
+    width: 270px;
+    height: 35px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 
 }
-.plan-how{
+
+.plan-how {
     font-weight: 400px;
-font-size: 25px;
-color: #737272;
-width: 300px;
-height: 29px;
+    font-size: 25px;
+    color: #737272;
+    width: 300px;
+    height: 29px;
 }
+
+/* connect style */
+
+.connect{
+    background-image: url(../images/gradient2.png);
+    width: 1140px;
+    height: 300px;
+    margin: 130px 230px;
+    border-radius: 8px;
+}
+.connect {
+    
+    width: 1140px;
+    height: 300px;
+    margin: 130px 230px;
+   background-size: cover;
+   background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(../images/watch.png);
+ 
+   border-radius: 8px;
+   background-size: cover;
+ 
+}
+.connect h3{
+padding-left: 60px;
+padding-top: 60px;
+width: 459px;
+height: 94px;
+font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+
+
+}
+.connect button{
+margin-left: 60px;
+margin-top: 25px;
+width: 150px;
+height: 64px;
+background-color: wheat;
+border: 0;
+border-radius: 5px;
+color: #F15B22;
+text-align: center;
+font-weight: 600;
+font-size: 20px;
+
+}
+
+
